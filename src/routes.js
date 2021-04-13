@@ -2,6 +2,11 @@ const express = require('express');
 
 const routes = express.Router();
 
+const profile = {
+    name: "Matt",
+    avatar: "https://avatars.githubusercontent.com/u/33405053?v=4"
+}
+
 
 const views = __dirname + "/views/"
 
